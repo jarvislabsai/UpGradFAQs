@@ -64,7 +64,7 @@ from keras... import ...
 
 ### Unable to save files
 
-Please check if you are saving it to a read-only folder or if the instance is paused.
+Please check if you are saving it to a read-only folder (/datasets is Read Only folder) or if the instance is paused.
 
 ### What are the folders that come at the launch of an instance
 
