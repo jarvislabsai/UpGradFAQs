@@ -5,6 +5,14 @@ We provide you with a customized linux machine with sever popular libraries prel
 
 You interact with the platform primarily through Jupyter Lab which is a very popular open source tool used across the datascience communities. Most of the common functionalities that you would need like downloading, uploading and other such activirties are well documented in their official [documentation](https://jupyterlab.readthedocs.io/en/stable/search.html?q=download&check_keywords=yes&area=default). 
 
+### Disk is not getting freed up even after deleting files.
+
+The data you delete from Jupyter goes to Trash folder. You can run the below command to delete any files in Trash
+
+```
+rm -rf ~/.local/share/Trash/*
+```
+
 ### Oh My disk is full
 
 Every instance is allocated with 20GB of storage. All linux machines starts creating various problems if the disk gets filled. So avoid filling the storage. 
