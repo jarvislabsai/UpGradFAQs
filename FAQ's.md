@@ -83,6 +83,19 @@ You get 2 types of folders.
 
 Both of these folders come every time you launch a new instance.
 
+### GPU is not being utilised
+
+GPU may not be utilised for several reasons. Check with a notebook that works. We would recommend trying this below notebook 
+
+```
+/dl_content/Upgrad DL//dl_content/Upgrad DL/Transfer Learning/Transfer_Learning_Notebook.ipynb
+```
+
+and observe the GPU utilization, if the GPU is not being utilized and if you have done no extra installations then something went wrong with the instance. This occuerence is highly unlikely and has not occured in the past. 
+
+If the GPU is being utilized, then you have to tweak your code. If you need assistance in that, you should reach out to upgrad TA.
+
+
 ### When to reach us
 
 At Jarvislabs.ai we provide the platform required for you to practice DL skills. If you face any challenges with  
